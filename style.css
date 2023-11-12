@@ -62,6 +62,7 @@ body {
 
 .failer-head{
     font-size: 30PX;
+    font-weight: 300;
     font-weight:bold;
 }
 .sort-title{
@@ -71,10 +72,29 @@ body {
    color: rgb(29, 28, 28);
 
 }
-
+.color{
+    color: rgb(122, 232, 11);
+}
 
 .flexi{
     display:flex;
    
-   
+    
+}
+.head-plan{
+    text-align: center;
+}
+.plan-item{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 300px;
+
+}
+.plan-icon{
+    text-align: center;
+}
+.idea{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
 }
