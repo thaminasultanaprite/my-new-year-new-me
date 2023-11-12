@@ -1,53 +1,60 @@
 * {
     font-family: 'Open Sans', sans-serif;
 }
+
 body {
     margin: 0px;
 }
+
 /* banner part */
 
 
-.banner-section{
+.banner-section {
     background-image: url(images/banner/banner3.png);
     background-size: cover;
     height: 600px;
-    background-position:center;
+    background-position: center;
 
 
 }
-.banner-head{
-    font-weight:1200px;
-   font-size:35px;
-   margin-bottom:0;
-   margin-top: 0;
-   color: aliceblue;
-   padding-top: 230px;
-  
-  
+
+.banner-head {
+    font-weight: 1200px;
+    font-size: 35px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: aliceblue;
+    padding-top: 230px;
+
+
 }
-.banner-dis{
+
+.banner-dis {
     font-weight: 190;
- font-size: 10px;
- color: rgb(237, 239, 240);
- margin-top: 10px;
- padding-top: 10px;
+    font-size: 10px;
+    color: rgb(237, 239, 240);
+    margin-top: 10px;
+    padding-top: 10px;
 }
-.btn{
+
+.btn {
     font-size: 15px;
     font-weight: bold;
-    color:rgb(4, 4, 151);
+    color: rgb(4, 4, 151);
     padding-right: 5px;
     padding-left: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 10px;
-  border: none;
+    border: none;
 }
-.banner-section{
+
+.banner-section {
     padding-left: 600px;
-    padding-right: 150px;  
-   
+    padding-right: 150px;
+
 }
+
 /* .failertitle{
     font-size:30px;
     font-weight: 30px;
@@ -60,41 +67,97 @@ body {
    
 /*LAST TRY MAIN PART */
 
-.failer-head{
+.failer-head {
     font-size: 30PX;
     font-weight: 300;
-    font-weight:bold;
+    font-weight: bold;
 }
-.sort-title{
+
+.sort-title {
     font-size: 10px;
-    font-weight:550;
-    padding-right:660px;
-   color: rgb(29, 28, 28);
+    font-weight: 550;
+    padding-right: 660px;
+    color: rgb(29, 28, 28);
 
 }
-.color{
+
+.color {
     color: rgb(122, 232, 11);
 }
 
-.flexi{
-    display:flex;
-   
-    
-}
-.head-plan{
-    text-align: center;
-}
-.plan-item{
+.flexi {
     display: flex;
-    justify-content: space-around;
-    margin: 80px 300px;
+
 
 }
-.plan-icon{
+
+
+.head-plan {
     text-align: center;
+    margin-bottom: 80px;
 }
-.idea{
-    font-weight: 700;
-    font-size: 30px;
+
+.plan-item {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.plan-icon {
+    text-align: center;
+
+
+
+
+
+}
+
+.idea {
+    font-weight: 500;
+    font-size: 20px;
     color: #151414;
+
+
+}
+
+.spann {
+    font-weight: 300;
+    font-size: 13px;
+    color: black;
+
+}
+
+.pic {
+    background-image:url(images/watch.png);
+    background-image: linear-gradient(images/gradient3.png);
+    height: 210px;
+    background-repeat: no-repeat;
+    padding-left: 70px;
+
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 80px;
+    margin-top: 90px;
+}
+
+.possitive {
+    padding-top: 85px;
+    color: azure;
+    margin-bottom: 7px;
+
+}
+
+.btnsec {
+    font-size: 10px;
+    font-weight: 1000;
+    fo color: rgb(4, 4, 151);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 2px;
+    border: none;
+ 
+
 }
