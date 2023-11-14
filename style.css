@@ -68,15 +68,20 @@ body {
 /*LAST TRY MAIN PART */
 
 .failer-head {
-    font-size: 30PX;
-    font-weight: 300;
+    font-size: 23PX;
+    font-weight:100;
+    padding-left: 10px;
+   padding-right:10px ;
+   padding-top: 130px;
+   margin-left: 10px;
     font-weight: bold;
 }
 
 .sort-title {
     font-size: 10px;
-    font-weight: 550;
-    padding-right: 660px;
+    font-weight: 250;
+    padding-right:70px;
+    padding-top: 300px;
     color: rgb(29, 28, 28);
 
 }
@@ -129,17 +134,17 @@ body {
 }
 
 .pic {
-    background-image:url(images/watch.png);
-    background-image: linear-gradient(images/gradient3.png);
+    background-image: url(images/watch.png);
+    background-image:linear-gradient();
     height: 210px;
     background-repeat: no-repeat;
     padding-left: 70px;
-
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 80px;
     margin-top: 90px;
 }
+
 
 .possitive {
     padding-top: 85px;
@@ -151,13 +156,58 @@ body {
 .btnsec {
     font-size: 10px;
     font-weight: 1000;
-    fo color: rgb(4, 4, 151);
+    color: rgb(4, 4, 151);
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 2px;
     border: none;
- 
+
 
 }
+
+.footer-head{
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(227, 230, 232);
+}
+.footer-dis{
+    font-weight: 400px;
+    font-size:10px ;
+    color: rgb(227, 230, 232);
+  
+}
+.subscribe-part{
+    font-weight: 250px;
+    font-size:12px;
+    color:  rgb(227, 230, 232);
+}
+.footer-part{
+    display: flex;
+   background-color: black;
+   height: 550px;
+}
+.pubg{
+    margin-top: 100px;
+    margin-right:200;
+    padding-right: 160px;
+    padding-left: 150px;
+    color: rgb(227, 230, 232);
+}
+.sun{
+    margin-top:100px;
+    margin-left:180px;
+    padding-right:180px;
+    color: rgb(227, 230, 232);
+}
+.img{
+    padding-top: 40px;
+}
+input{
+    height:30px;
+    width:150px;
+  
+}
+
+
